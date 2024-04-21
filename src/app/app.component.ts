@@ -3,6 +3,7 @@ import { RouterOutlet } from '@angular/router';
 import { HeaderComponent } from './header/header.component';
 import { SoundwaveSectionComponent } from './soundwave-section/soundwave-section.component';
 import { FooterComponent } from './footer/footer.component';
+import { DiscoverSectionComponent } from './discover-section/discover-section.component';
 
 @Component({
   selector: 'app-root',
@@ -11,6 +12,7 @@ import { FooterComponent } from './footer/footer.component';
     RouterOutlet,
     HeaderComponent,
     SoundwaveSectionComponent,
+    DiscoverSectionComponent,
     FooterComponent,
   ],
   templateUrl: './app.component.html',
