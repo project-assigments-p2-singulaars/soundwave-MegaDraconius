@@ -1,0 +1,17 @@
+section {
+  display: flex;
+  flex-direction: column;
+}
+
+button {
+  background-color: #1762a7;
+  font-size: 0.8rem;
+}
+
+button:hover {
+  background-color: #2180d8;
+}
+
+button:focus {
+  background-color: #2796ff;
+}
