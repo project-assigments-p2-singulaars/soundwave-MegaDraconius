@@ -1,0 +1,19 @@
+header {
+  background-color: #202027;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  align-items: center;
+  height: 8rem;
+}
+
+.logo-soundwave {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 20px;
+}
+
+.logo-title {
+  font-size: 1.2rem;
+}
