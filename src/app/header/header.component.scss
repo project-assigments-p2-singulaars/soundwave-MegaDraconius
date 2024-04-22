@@ -1,0 +1,30 @@
+header {
+  background-color: #2f303a;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  align-items: center;
+  height: 8rem;
+}
+
+.logo-soundwave {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 20px;
+}
+
+.logo-title {
+  font-size: 1.2rem;
+}
+
+.a-container {
+  display: flex;
+  gap: 2rem;
+}
+
+@media (min-device-width: 480px) {
+  header {
+    justify-content: space-around;
+  }
+}

@@ -1,1 +1,19 @@
-/* You can add global styles to this file, and also import other style files */
+*,
+*:after,
+*:before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+}
+body {
+  font-size: 100%;
+  list-style-type: none;
+  background-color: #2f303a;
+}
+
+:host {
+  display: flex;
+}
