@@ -4,6 +4,7 @@ import { HeaderComponent } from './header/header.component';
 import { SoundwaveSectionComponent } from './soundwave-section/soundwave-section.component';
 import { FooterComponent } from './footer/footer.component';
 import { DiscoverSectionComponent } from './discover-section/discover-section.component';
+import { JoinSectionComponent } from './join-section/join-section.component';
 
 @Component({
   selector: 'app-root',
@@ -14,6 +15,7 @@ import { DiscoverSectionComponent } from './discover-section/discover-section.co
     SoundwaveSectionComponent,
     DiscoverSectionComponent,
     FooterComponent,
+    JoinSectionComponent,
   ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss',
