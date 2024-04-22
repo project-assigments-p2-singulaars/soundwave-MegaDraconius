@@ -42,3 +42,20 @@ input {
   background-color: #202027;
   border: 1px solid #2f3253;
 }
+
+@media (min-device-width: 480px) {
+  body {
+    overflow: hidden;
+  }
+
+  section {
+    display: flex;
+    flex-direction: row;
+    height: 72.6vh;
+  }
+
+  form {
+    width: 26rem;
+    height: 20rem;
+  }
+}

@@ -10,3 +10,19 @@ footer {
 .facebook-img {
   width: 1.5rem;
 }
+
+.text-container {
+  width: 50vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.logos-container {
+  width: 60vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 1rem;
+}

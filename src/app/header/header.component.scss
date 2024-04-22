@@ -1,5 +1,5 @@
 header {
-  background-color: #202027;
+  background-color: #2f303a;
   display: flex;
   justify-content: space-evenly;
   flex-direction: row;
@@ -16,4 +16,15 @@ header {
 
 .logo-title {
   font-size: 1.2rem;
+}
+
+.a-container {
+  display: flex;
+  gap: 2rem;
+}
+
+@media (min-device-width: 480px) {
+  header {
+    justify-content: space-around;
+  }
 }
