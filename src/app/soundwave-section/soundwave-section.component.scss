@@ -8,6 +8,23 @@ section {
   gap: 2rem;
 }
 
+.img-container {
+  display: none;
+}
+
+.landing-img {
+  display: none;
+}
+
+.text-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  height: 100%;
+  gap: 2rem;
+}
+
 h2 {
   font-size: 4rem;
   font-weight: 400;
@@ -33,4 +50,34 @@ button:hover {
 
 button:focus {
   background-color: #2796ff;
+}
+
+@media (min-width: 481px) {
+  section {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    height: 82vh;
+    margin: 0;
+  }
+
+  .img-container {
+    display: block;
+    height: 30rem;
+  }
+
+  .landing-img {
+    display: block;
+    height: 100%;
+  }
+
+  h2 {
+    font-size: 4rem;
+    font-weight: 400;
+  }
+
+  p {
+    font-size: 1.2rem;
+    font-weight: 400;
+  }
 }
