@@ -68,8 +68,10 @@ button:focus {
   }
 
   .landing-img {
-    display: block;
+    display: flex;
     height: 100%;
+    position: relative;
+    z-index: 2;
   }
 
   h2 {
@@ -80,5 +82,40 @@ button:focus {
   p {
     font-size: 1.2rem;
     font-weight: 400;
+  }
+
+  .circle-1 {
+    height: 20rem;
+    width: 20rem;
+    border-radius: 50%;
+    background-color: #412c41;
+    position: absolute;
+    left: 3%;
+    bottom: 3%;
+  }
+
+  .circle-2 {
+    height: 20rem;
+    width: 20rem;
+    border-radius: 50%;
+    background-color: #303047;
+    position: absolute;
+    left: 30%;
+    bottom: 30%;
+  }
+
+  .circle-3 {
+    height: 22rem;
+    width: 22rem;
+    border-radius: 100% 0 0 0;
+    background-color: #303047;
+    position: absolute;
+    left: 75%;
+    top: 58%;
+  }
+
+  .text-container {
+    position: relative;
+    z-index: 2;
   }
 }
