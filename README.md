@@ -22,19 +22,6 @@ Han contactado contigo por tu reputación como maquetadora web, y te piden que l
 
 ## Recursos
 
-<details>
-  <summary>Las imágenes se encuentran en la carpeta assets</summary>
-
-    - landing-page-girl.png
-    - covers.jpg
-    - more.svg
-    - albums.svg
-    - logo.png
-    - microphone.svg
-    - twitter.svg
-
-</details>
-
 - **[Mockup](https://simplonline-v3-prod.s3.eu-west-3.amazonaws.com/media/file/pdf/46391d6c-b766-4ed3-a121-72c9b2a15960.pdf)**
 - **[Carta gráfica](https://simplonline-v3-prod.s3.eu-west-3.amazonaws.com/media/file/pdf/0b528713-7dbc-4261-b4b7-0070dd4e7021.pdf)**
 - **[Doc oficial Angular](https://angular.dev/)**
@@ -42,19 +29,14 @@ Han contactado contigo por tu reputación como maquetadora web, y te piden que l
 
 ## Entregables
 
-- Repositorio de GitHub.
-- Enlace del despliegue.
+- Repositorio de GitHub [SoundWave Project](https://github.com/project-assigments-p2-singulaars/soundwave-MegaDraconius)
+- Enlace del despliegue [SoundWave](https://soundwave-megadraconius.netlify.app/)
+- Enlace al kanban para gestionar el proyecto [clica aquí](https://trello.com/b/MYcpBsGx/soundwave)
 
-## Modalidad
+## Herramientas de trabajo
 
-- Trabajo individual, plazo de entrega 23/04/24.
-- El feedback a los proyectos se dará de manera individual vía classroom.
-
-## Rúbrica de evaluación
-
-|                                                        | 1                                                                                    | 2                                                                                      | 3                                                                                                                                                                                                                                                                         |
-| ------------------------------------------------------ | ------------------------------------------------------------------------------------ | -------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Indicador                                              | Deficiente                                                                           | Regular                                                                                | Excelente                                                                                                                                                                                                                                                                 |
-| Maquetar una aplicación                                | La maquetación no es conforme al mockoup. Hay diferencias notables con el prototipo. | La maquetación respeta la carta gráfica. Pero no termina de ser totalmente responsive. | La maquetación respeta la carta gráfica de la empresa. Adaptar las interfaces al tipo de dispositivo teniendo en cuenta la experiencia del usuario y, en el caso de los dispositivos móviles, las características ergonómicas.                                            |
-| Desarrollar una interfaz de usuario web dinámica       | Las interacciones del lado del cliente (front-end) no funcionan.                     | Las interacciones del lado del cliente (front-end) si funcionan.                       | La web está alineada con la experiencia de usuario, incluyendo la experiencia móvil. La arquitectura de la aplicación se ajusta a las buenas prácticas de desarrollo. Los test garantizan que la página web cumplen los requisitos descritos en las especificaciones.     |
-| Crear una interfaz de usuario web estática y adaptable | No se aplican los cambios necesarios solicitados en la descripción de necesidades.   | Se aplican los cambios necesarios solicitados en la descripción de necesidades.        | La interfaz se realiza conforme al diseño de la aplicación. La página web respeta la carta gráfica de la empresa. Se respetan las buenas prácticas de estructuración. La app es accesible desde el navegador, incluso desde un móvil. Se adapta al tamaño de la pantalla. |
+- Html.
+- Sass como libreria de estilos.
+- Angular como framework de desarrollo.
+- Netlify para el despliegue.
+- Git y Github para control de versiones.
