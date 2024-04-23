@@ -44,18 +44,14 @@ input {
 }
 
 @media (min-device-width: 480px) {
-  body {
-    overflow: hidden;
-  }
-
   section {
     display: flex;
     flex-direction: row;
-    height: 72.6vh;
+    height: 100vh;
   }
 
   form {
-    width: 26rem;
+    width: 24rem;
     height: 20rem;
   }
 }

@@ -57,13 +57,14 @@ button:focus {
     display: flex;
     flex-direction: row;
     align-items: flex-end;
-    height: 81.5vh;
+    height: 100vh;
     margin: 0;
   }
 
   .img-container {
     display: block;
     height: 30rem;
+    justify-content: flex-end;
   }
 
   .landing-img {
