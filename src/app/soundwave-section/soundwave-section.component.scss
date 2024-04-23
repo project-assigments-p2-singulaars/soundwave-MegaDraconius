@@ -52,6 +52,36 @@ button:focus {
   background-color: #2796ff;
 }
 
+.circle-1 {
+  height: 8rem;
+  width: 8rem;
+  border-radius: 50%;
+  background-color: #412c41;
+  position: absolute;
+  left: 7%;
+  top: 83%;
+}
+
+.circle-2 {
+  height: 8rem;
+  width: 8rem;
+  border-radius: 50%;
+  background-color: #303047;
+  position: absolute;
+  left: 29%;
+  top: 14%;
+}
+
+.circle-3 {
+  height: 9rem;
+  width: 9rem;
+  border-radius: 100% 0 0 0;
+  background-color: #303047;
+  position: absolute;
+  left: 66%;
+  top: 84.5%;
+}
+
 @media (min-width: 481px) {
   section {
     display: flex;
@@ -90,8 +120,8 @@ button:focus {
     border-radius: 50%;
     background-color: #412c41;
     position: absolute;
-    left: 3%;
-    bottom: 3%;
+    left: 7%;
+    top: 49%;
   }
 
   .circle-2 {
@@ -110,8 +140,8 @@ button:focus {
     border-radius: 100% 0 0 0;
     background-color: #303047;
     position: absolute;
-    left: 75%;
-    top: 58%;
+    left: 78%;
+    top: 62%;
   }
 
   .text-container {
