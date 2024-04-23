@@ -121,7 +121,8 @@ button:focus {
     background-color: #412c41;
     position: absolute;
     left: 7%;
-    top: 49%;
+    top: 4%;
+    z-index: -1;
   }
 
   .circle-2 {
