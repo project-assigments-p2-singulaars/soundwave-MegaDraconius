@@ -65,6 +65,14 @@ input {
   z-index: -1;
 }
 
+button:hover {
+  background-color: #2180d8;
+}
+
+button:focus {
+  background-color: #2796ff;
+}
+
 @media (min-device-width: 480px) {
   section {
     display: flex;
