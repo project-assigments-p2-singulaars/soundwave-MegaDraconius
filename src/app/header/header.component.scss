@@ -22,6 +22,14 @@ header {
   gap: 2rem;
 }
 
+p:hover {
+  color: #adadad;
+}
+
+p:focus {
+  color: #adadad;
+}
+
 @media (min-device-width: 480px) {
   header {
     height: 5.4rem;

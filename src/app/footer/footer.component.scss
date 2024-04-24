@@ -33,6 +33,14 @@ footer {
   gap: 0.45rem;
 }
 
+p:hover {
+  color: #adadad;
+}
+
+p:focus {
+  color: #adadad;
+}
+
 @media (min-device-width: 480px) {
   footer {
     display: flex;
