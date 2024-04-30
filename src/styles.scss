@@ -1,0 +1,28 @@
+*,
+*:after,
+*:before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+  overflow-x: hidden;
+}
+body {
+  font-size: 100%;
+  list-style-type: none;
+  background-color: #2f303a;
+}
+
+:host {
+  display: flex;
+}
+
+a:hover {
+  color: #adadad;
+}
+
+a:focus {
+  color: #adadad;
+}

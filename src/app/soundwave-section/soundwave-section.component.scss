@@ -1,0 +1,153 @@
+section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  height: 76vh;
+  margin: 3rem;
+  gap: 2rem;
+}
+
+.img-container {
+  display: none;
+}
+
+.landing-img {
+  display: none;
+}
+
+.text-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  height: 100%;
+  gap: 2rem;
+}
+
+h2 {
+  font-size: 4rem;
+  font-weight: 400;
+}
+
+p {
+  font-size: 1.3rem;
+}
+
+button {
+  background-color: #1762a7;
+  font-size: 0.8rem;
+  border-radius: 0.8rem;
+  border: none;
+  width: 6.5rem;
+  height: 2.8rem;
+  font-size: 0.85rem;
+  z-index: 2;
+}
+
+button:hover {
+  background-color: #2180d8;
+}
+
+button:focus {
+  background-color: #2796ff;
+}
+
+.circle-1 {
+  height: 8rem;
+  width: 8rem;
+  border-radius: 50%;
+  background-color: #412c41;
+  position: absolute;
+  left: 7%;
+  top: 83%;
+}
+
+.circle-2 {
+  height: 8rem;
+  width: 8rem;
+  border-radius: 50%;
+  background-color: #303047;
+  position: absolute;
+  left: 29%;
+  top: 14%;
+}
+
+.circle-3 {
+  height: 9rem;
+  width: 9rem;
+  border-radius: 100% 0 0 0;
+  background-color: #303047;
+  position: absolute;
+  left: 66%;
+  top: 84.5%;
+}
+
+@media (min-width: 481px) {
+  section {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    height: 100vh;
+    margin: 0;
+  }
+
+  .img-container {
+    display: block;
+    height: 30rem;
+    justify-content: flex-end;
+  }
+
+  .landing-img {
+    display: flex;
+    height: 100%;
+    position: relative;
+    z-index: 2;
+  }
+
+  h2 {
+    font-size: 4rem;
+    font-weight: 400;
+  }
+
+  p {
+    font-size: 1.2rem;
+    font-weight: 400;
+  }
+
+  .circle-1 {
+    height: 21rem;
+    width: 21rem;
+    border-radius: 50%;
+    background-color: #412c41;
+    position: absolute;
+    left: 7%;
+    top: 45%;
+    z-index: -1;
+  }
+
+  .circle-2 {
+    height: 21rem;
+    width: 21rem;
+    border-radius: 50%;
+    background-color: #303047;
+    position: absolute;
+    left: 30%;
+    bottom: 30%;
+  }
+
+  .circle-3 {
+    height: 22rem;
+    width: 22rem;
+    border-radius: 100% 0 0 0;
+    background-color: #303047;
+    position: absolute;
+    left: 78%;
+    top: 62%;
+  }
+
+  .text-container {
+    position: relative;
+    z-index: 2;
+  }
+}
